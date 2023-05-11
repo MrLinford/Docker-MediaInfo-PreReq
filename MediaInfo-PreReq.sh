@@ -12,7 +12,7 @@ curl -o /usr/share/keyrings/gpg-pub-moritzbunkus.gpg https://mkvtoolnix.download
 # Add MKVToolNix repositorie
 cd /etc/apt/sources.list.d
 touch mkvtoolnix.download.list
-cat > mkvtoolnix.download.list << EOF
+cat > mkvtoolnix.download.list <<EOF
 deb [arch=amd64 signed-by=/usr/share/keyrings/gpg-pub-moritzbunkus.gpg] https://mkvtoolnix.download/ubuntu/ jammy main
 deb-src [arch=amd64 signed-by=/usr/share/keyrings/gpg-pub-moritzbunkus.gpg] https://mkvtoolnix.download/ubuntu/ jammy main
 EOF
