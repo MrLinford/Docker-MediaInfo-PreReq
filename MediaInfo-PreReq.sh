@@ -1,7 +1,7 @@
 #! /bin/bash
 
 # Make sure directory /tmp is accessible
-chmod 777 /tmp
+chmod 1777 /tmp
 
 # Make sure current packages are updated
 apt update
